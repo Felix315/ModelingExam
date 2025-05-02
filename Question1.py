@@ -60,7 +60,7 @@ class PokerHand:
         return self.number_matches == 8  # Only true for full house
 
 # Simulation configuration
-iterations = 50000  # <-- CHANGE THIS MANUALLY if needed (from 1000 to 50000)
+iterations = 50000  # <-- Manual input instead of slider (from 1000 to 50000)
 draws = []
 probs = []
 
